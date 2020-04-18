@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B09AACB7A59E46C97BBAF47 /* Pods_TEST1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D7E90C15B2C4F52701A9E3 /* Pods_TEST1.framework */; };
 		537D43C9244AD70800080B27 /* TEST1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537D43BF244AD70800080B27 /* TEST1.framework */; };
 		537D43CE244AD70800080B27 /* TEST1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D43CD244AD70800080B27 /* TEST1Tests.swift */; };
 		537D43D0244AD70800080B27 /* TEST1.h in Headers */ = {isa = PBXBuildFile; fileRef = 537D43C2244AD70800080B27 /* TEST1.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		301EFE128368919F8EC07477 /* Pods-TEST1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEST1.debug.xcconfig"; path = "Target Support Files/Pods-TEST1/Pods-TEST1.debug.xcconfig"; sourceTree = "<group>"; };
 		537D43BF244AD70800080B27 /* TEST1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TEST1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		537D43C2244AD70800080B27 /* TEST1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEST1.h; sourceTree = "<group>"; };
 		537D43C3244AD70800080B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +67,8 @@
 		537D43FD244AEF1B00080B27 /* TestVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		537D4401244AEF1B00080B27 /* TestVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCUITests.swift; sourceTree = "<group>"; };
 		537D4403244AEF1B00080B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6FDB63FC316395073861F60 /* Pods-TEST1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEST1.release.xcconfig"; path = "Target Support Files/Pods-TEST1/Pods-TEST1.release.xcconfig"; sourceTree = "<group>"; };
+		D8D7E90C15B2C4F52701A9E3 /* Pods_TEST1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TEST1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B09AACB7A59E46C97BBAF47 /* Pods_TEST1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		330ACB8EEAAF6351C1B93EE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7E90C15B2C4F52701A9E3 /* Pods_TEST1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		537D43B5244AD70800080B27 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +129,8 @@
 				537D43F5244AEF1B00080B27 /* TestVCTests */,
 				537D4400244AEF1B00080B27 /* TestVCUITests */,
 				537D43C0244AD70800080B27 /* Products */,
+				FD180136066F0C00D4DC2183 /* Pods */,
+				330ACB8EEAAF6351C1B93EE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +196,16 @@
 			path = TestVCUITests;
 			sourceTree = "<group>";
 		};
+		FD180136066F0C00D4DC2183 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				301EFE128368919F8EC07477 /* Pods-TEST1.debug.xcconfig */,
+				C6FDB63FC316395073861F60 /* Pods-TEST1.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -199,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 537D43D3244AD70800080B27 /* Build configuration list for PBXNativeTarget "TEST1" */;
 			buildPhases = (
+				FA89C2557B0D6BB827F6E46E /* [CP] Check Pods Manifest.lock */,
 				537D43BA244AD70800080B27 /* Headers */,
 				537D43BB244AD70800080B27 /* Sources */,
 				537D43BC244AD70800080B27 /* Frameworks */,
@@ -376,6 +402,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA89C2557B0D6BB827F6E46E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TEST1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		537D43BB244AD70800080B27 /* Sources */ = {
@@ -583,6 +634,7 @@
 		};
 		537D43D4244AD70800080B27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301EFE128368919F8EC07477 /* Pods-TEST1.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -610,6 +662,7 @@
 		};
 		537D43D5244AD70800080B27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6FDB63FC316395073861F60 /* Pods-TEST1.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
