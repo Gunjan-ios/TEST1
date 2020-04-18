@@ -19,6 +19,7 @@
 		537D43EC244AEF1B00080B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537D43EA244AEF1B00080B27 /* LaunchScreen.storyboard */; };
 		537D43F7244AEF1B00080B27 /* TestVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D43F6244AEF1B00080B27 /* TestVCTests.swift */; };
 		537D4402244AEF1B00080B27 /* TestVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D4401244AEF1B00080B27 /* TestVCUITests.swift */; };
+		537D440E244B26FC00080B27 /* SIgninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D440D244B26FC00080B27 /* SIgninViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		537D43FD244AEF1B00080B27 /* TestVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		537D4401244AEF1B00080B27 /* TestVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCUITests.swift; sourceTree = "<group>"; };
 		537D4403244AEF1B00080B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537D440D244B26FC00080B27 /* SIgninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgninViewController.swift; sourceTree = "<group>"; };
 		C6FDB63FC316395073861F60 /* Pods-TEST1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEST1.release.xcconfig"; path = "Target Support Files/Pods-TEST1/Pods-TEST1.release.xcconfig"; sourceTree = "<group>"; };
 		D8D7E90C15B2C4F52701A9E3 /* Pods_TEST1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TEST1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -152,6 +154,7 @@
 				537D43C2244AD70800080B27 /* TEST1.h */,
 				537D43C3244AD70800080B27 /* Info.plist */,
 				537D43D9244AD78A00080B27 /* HelloWorld.swift */,
+				537D440D244B26FC00080B27 /* SIgninViewController.swift */,
 			);
 			path = TEST1;
 			sourceTree = "<group>";
@@ -202,7 +205,6 @@
 				301EFE128368919F8EC07477 /* Pods-TEST1.debug.xcconfig */,
 				C6FDB63FC316395073861F60 /* Pods-TEST1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -433,6 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537D440E244B26FC00080B27 /* SIgninViewController.swift in Sources */,
 				537D43DA244AD78A00080B27 /* HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
