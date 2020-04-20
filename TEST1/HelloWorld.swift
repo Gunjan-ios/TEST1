@@ -15,4 +15,14 @@ public class HelloWorld {
     public func hello(to whom: String) -> String {
         return "Hello \(whom)"
     }
+    
+//    public func GotoNextScreen(str : String) {
+//        if str == "Next"{
+//            let vc = HomeViewController()
+//            self.navigationController?.pushViewController(vc, animated: true)
+//        }else{
+//            print("Failed")
+//        }
+//    }
+
 }

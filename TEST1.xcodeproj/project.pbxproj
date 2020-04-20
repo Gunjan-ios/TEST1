@@ -20,6 +20,10 @@
 		537D43F7244AEF1B00080B27 /* TestVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D43F6244AEF1B00080B27 /* TestVCTests.swift */; };
 		537D4402244AEF1B00080B27 /* TestVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D4401244AEF1B00080B27 /* TestVCUITests.swift */; };
 		537D440E244B26FC00080B27 /* SIgninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D440D244B26FC00080B27 /* SIgninViewController.swift */; };
+		537D4415244B288000080B27 /* TEST1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537D43BF244AD70800080B27 /* TEST1.framework */; };
+		537D4416244B288000080B27 /* TEST1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 537D43BF244AD70800080B27 /* TEST1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		537D441B244B2A4B00080B27 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D441A244B2A4B00080B27 /* HomeViewController.swift */; };
+		537D441D244B302B00080B27 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537D441C244B302B00080B27 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +48,28 @@
 			remoteGlobalIDString = 537D43DE244AEF1900080B27;
 			remoteInfo = TestVC;
 		};
+		537D4417244B288000080B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537D43B6244AD70800080B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537D43BE244AD70800080B27;
+			remoteInfo = TEST1;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		537D4419244B288000080B27 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				537D4416244B288000080B27 /* TEST1.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		301EFE128368919F8EC07477 /* Pods-TEST1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEST1.debug.xcconfig"; path = "Target Support Files/Pods-TEST1/Pods-TEST1.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +94,8 @@
 		537D4401244AEF1B00080B27 /* TestVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCUITests.swift; sourceTree = "<group>"; };
 		537D4403244AEF1B00080B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		537D440D244B26FC00080B27 /* SIgninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgninViewController.swift; sourceTree = "<group>"; };
+		537D441A244B2A4B00080B27 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		537D441C244B302B00080B27 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		C6FDB63FC316395073861F60 /* Pods-TEST1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEST1.release.xcconfig"; path = "Target Support Files/Pods-TEST1/Pods-TEST1.release.xcconfig"; sourceTree = "<group>"; };
 		D8D7E90C15B2C4F52701A9E3 /* Pods_TEST1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TEST1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537D4415244B288000080B27 /* TEST1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +183,8 @@
 				537D43C3244AD70800080B27 /* Info.plist */,
 				537D43D9244AD78A00080B27 /* HelloWorld.swift */,
 				537D440D244B26FC00080B27 /* SIgninViewController.swift */,
+				537D441C244B302B00080B27 /* Storyboard.storyboard */,
+				537D441A244B2A4B00080B27 /* HomeViewController.swift */,
 			);
 			path = TEST1;
 			sourceTree = "<group>";
@@ -266,10 +296,12 @@
 				537D43DB244AEF1900080B27 /* Sources */,
 				537D43DC244AEF1900080B27 /* Frameworks */,
 				537D43DD244AEF1900080B27 /* Resources */,
+				537D4419244B288000080B27 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				537D4418244B288000080B27 /* PBXTargetDependency */,
 			);
 			name = TestVC;
 			productName = TestVC;
@@ -369,6 +401,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537D441D244B302B00080B27 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +470,7 @@
 			files = (
 				537D440E244B26FC00080B27 /* SIgninViewController.swift in Sources */,
 				537D43DA244AD78A00080B27 /* HelloWorld.swift in Sources */,
+				537D441B244B2A4B00080B27 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +524,11 @@
 			isa = PBXTargetDependency;
 			target = 537D43DE244AEF1900080B27 /* TestVC */;
 			targetProxy = 537D43FE244AEF1B00080B27 /* PBXContainerItemProxy */;
+		};
+		537D4418244B288000080B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537D43BE244AD70800080B27 /* TEST1 */;
+			targetProxy = 537D4417244B288000080B27 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -731,6 +770,7 @@
 		537D4405244AEF1B00080B27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SG3KCU48ZD;
@@ -749,6 +789,7 @@
 		537D4406244AEF1B00080B27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SG3KCU48ZD;

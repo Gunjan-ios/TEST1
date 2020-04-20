@@ -1,5 +1,8 @@
 use_frameworks!
+
 target 'TEST1' do
-   platform :ios, '12.1'
-   pod 'TEST1', :path => '.'
+
+  platform :ios, '12.1'
+  pod 'TEST1', :path => '.'
+
 end
